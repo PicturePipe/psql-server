@@ -15,7 +15,7 @@ RUN apk add --no-cache --virtual .build-deps \
 	&& mkdir -p /tmp \
 	&& git clone https://github.com/pgvector/pgvector /tmp/pgvector \
 	&& cd /tmp/pgvector \
-	&& git checkout v0.5.1 \
+	&& git checkout v0.7.4 \
 	&& make clean \
 	&& make OPTFLAGS="" \
 	&& make install \
