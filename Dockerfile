@@ -1,4 +1,4 @@
-FROM timescale/timescaledb:latest-pg15@sha256:e9a481d6ba93d7ca556459f20b329525f2a0b7b5aafedd7bb227345f65185709
+FROM timescale/timescaledb:latest-pg15@sha256:30a98d1980c11744c2fadddbc9883860a7631fc16f199f35b92af650c6a49784
 
 RUN apk add --no-cache --virtual .build-deps \
 		ca-certificates \
