@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-docker-image:
     docker:
-      - image: cimg/base:2024.01@sha256:ec89f18df94c933b1f4a3dc05616759d5fc39e5a48a75cf9ad85f88a39179074
+      - image: cimg/base:2025.05@sha256:aba70d4929ae645edb03d5df79b93be75254f0fc39f6bf86001a0aec8d661f32
     steps:
       - checkout
       - attach_workspace:
